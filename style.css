@@ -29,6 +29,7 @@ header {
     background-color: var(--color-orange);
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    max-height: 70px;
 }
 
 li a {
@@ -135,6 +136,10 @@ h2 {
     font-size: 1rem;
     margin: 100px auto;
 
+}
+
+@media screen and (max-width: 800px) {
+    #pricing {flex-direction: column;}
 }
 
 .price {
