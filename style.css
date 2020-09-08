@@ -1,9 +1,10 @@
 
 :root{
     --color-orange: rgb(250, 191, 103);
-    --color-grey-alpha: rgba(61, 61, 61, 0.144);
     --color-grey: rgba(61, 61, 61);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 .logo {
     display: flex;
@@ -26,19 +27,20 @@ header {
     align-items: left;
     justify-content: space-around;
     background-color: var(--color-orange);
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 li a {
     display: block;
-    color: white;
+    color: var(--color-grey);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: var(--color-grey-alpha);
+    color: white;
   }
 
 ul {
@@ -52,3 +54,46 @@ ul {
 li {
     float: left;
 }
+
+#form-div {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 100px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 700;
+    color: var(--color-grey);
+}
+
+#email {
+    width: 100%;
+    margin: 10px auto;
+    font-size: 1rem;
+}
+
+.button {
+    height: 25px;
+    width: 50%;
+    margin: 10px auto;
+    background: var(--color-orange);
+    color: var(--color-grey);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-style: none;
+    margin-left: 70px;
+}
+
+.button:hover {
+    color: white;
+}
+
