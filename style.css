@@ -83,14 +83,17 @@ h2 {
 .button {
     height: 25px;
     width: 50%;
-    margin: 10px auto;
+    margin: 30px auto;
     background: var(--color-orange);
     color: var(--color-grey);
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     border-style: none;
-    margin-left: 70px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
 }
 
 .button:hover {
@@ -105,12 +108,75 @@ h2 {
     flex-direction: column;
     width: 700px;
     padding: 2px;
-    margin: 2px auto;
+    margin: 50px auto;
     text-align: center;
-    font-size: 1rem;
-    line-height: 20px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
 }
 
-body {
-    height: 2000px;
+
+#video {
+    display: flex;
+    align-self: center;
+    width: 800px;
+    height: 480px;
+    margin: 50px auto;
+
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 100px auto;
+
+}
+
+.price {
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.price h1 {
+    background: var(--color-orange);
+    color: var(--color-grey);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.price h2 {
+    font-size: 50px;
+    padding: 30px;
+}
+
+.price p {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.button2 {
+    height: 35px;
+    width: 75%;
+    margin: 110px auto;
+    background: var(--color-orange);
+    color: var(--color-grey);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-style: none;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+
+.button2:hover {
+    color: white;
 }
