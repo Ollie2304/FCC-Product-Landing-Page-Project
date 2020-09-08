@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 1300px;
+    margin-right: 1100px;
 }
 
 header {
@@ -63,7 +63,7 @@ li {
     width: 400px;
     height: 200px;
     padding: 20px;
-    margin: 100px auto;
+    margin: 50px auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     flex-direction: column;
@@ -97,3 +97,20 @@ h2 {
     color: white;
 }
 
+#features { 
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    padding: 2px;
+    margin: 2px auto;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+body {
+    height: 2000px;
+}
