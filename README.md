@@ -1,4 +1,4 @@
-# FCC-Survey-Form-Project
+# FCC-Product-Landing-Page-Project 
 
 Project for [freeCodeCamp's](https://www.freecodecamp.org/) Responsive Web Design course.
 
